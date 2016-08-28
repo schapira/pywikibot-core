@@ -1,7 +1,7 @@
 # -*- coding: utf-8  -*-
 """Interface to Mediawiki's api.php."""
 #
-# (C) Pywikibot team, 2007-2015
+# (C) Pywikibot team, 2007-2016
 #
 # Distributed under the terms of the MIT license.
 #
@@ -85,7 +85,8 @@ else:
 
 _logger = "data.api"
 
-lagpattern = re.compile(r"Waiting for [\d.]+: (?P<lag>\d+) seconds? lagged")
+lagpattern = re.compile(
+    r'Waiting for [\w. ]+: (?P<lag>\d+)(?:\.\d+)? seconds? lagged')
 
 
 class APIError(Error):
