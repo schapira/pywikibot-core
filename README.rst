@@ -1,3 +1,10 @@
+this is a fork from 'pywikibot<https://github.com/wikimedia/pywikibot-core>'
+made in 8/6/2017
+for developing a bot for the hebrew wikisource (wikitext) for inserting auto navigation templates (to page forward and page backward, according to dictionary order)
+look for the file in /scripts/schapira.nivut.py
+
+
+
 Pywikibot
 =========
 
